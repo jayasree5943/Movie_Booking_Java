@@ -1,0 +1,30 @@
+package movie_booking;
+import java.util.*;
+public class main {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your choice");
+		System.out.println("1. Manage user");
+		System.out.println("2. Manage movies");
+		System.out.println("3. Manage theater");
+		System.out.println("Enter here");
+		int choice = sc.nextInt();
+		sc.nextLine();
+		switch (choice) {
+		case 1:
+            method.managerUser();
+            break;
+		case 2:
+            System.out.println("Manage movies — Not implemented yet.");
+            break;
+        case 3:
+            System.out.println("Manage theater — Not implemented yet.");    
+        default:
+        	System.out.println("Invalid option");
+		
+		}
+	}
+	}
